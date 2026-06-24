@@ -1,26 +1,32 @@
-[
-  {
-    "id": 1,
-    "numero": "1",
-    "nombre": "Recepción",
-    "descripcion": "Área de check-in y atención a huéspedes.",
-    "top": "27%",
-    "left": "14%"
-  },
-  {
-    "id": 13,
-    "numero": "13",
-    "nombre": "Piscina Principal",
-    "descripcion": "Piscina familiar principal en el centro del complejo.",
-    "top": "24%",
-    "left": "29%"
-  },
-  {
-    "id": 22,
-    "numero": "22",
-    "nombre": "Restaurante Ayami",
-    "descripcion": "Restaurante de especialidades.",
-    "top": "41%",
-    "left": "47%"
-  }
-]
+{
+  "zonas": [
+    { "id": 1,  "nombre": "Front Desk",                  "tipo": "servicio",    "x": 23.5, "y": 47.0, "descripcion": "Recepción principal del hotel. Aquí puedes hacer check-in, check-out y solicitar información general." },
+    { "id": 2,  "nombre": "Concierge",                    "tipo": "servicio",    "x": 22.4, "y": 54.0, "descripcion": "El equipo de concierge te ayuda con reservaciones, tours, transporte y recomendaciones locales." },
+    { "id": 3,  "nombre": "Take a Bite",                  "tipo": "restaurante", "x": 26.3, "y": 47.0, "descripcion": "Snack bar para antojos rápidos durante el día." },
+    { "id": 4,  "nombre": "Lobby Bar",                    "tipo": "bar",         "x": 25.3, "y": 57.0, "descripcion": "Disfruta de bebidas y cocteles en un ambiente relajado en el lobby." },
+    { "id": 5,  "nombre": "Altitude Club",                "tipo": "servicio",    "x": 17.9, "y": 47.0, "descripcion": "Área exclusiva con beneficios y servicios premium para huéspedes Altitude." },
+    { "id": 6,  "nombre": "Sky Bar",                      "tipo": "bar",         "x": 27.8, "y": 18.5, "descripcion": "Bar con vista elevada, ideal para disfrutar el atardecer." },
+    { "id": 7,  "nombre": "Spa",                           "tipo": "servicio",    "x": 10.7, "y": 35.6, "descripcion": "Spa del hotel: masajes, tratamientos y relajación total." },
+    { "id": 8,  "nombre": "Adventure Friends",             "tipo": "actividad",  "x": 58.7, "y": 12.3, "descripcion": "Club infantil con actividades y diversión supervisada para los más pequeños." },
+    { "id": 9,  "nombre": "Kamp Krystal Club Wading Pool", "tipo": "alberca",    "x": 57.0, "y": 18.5, "descripcion": "Alberca poco profunda diseñada especialmente para niños." },
+    { "id": 10, "nombre": "Kamp Krystal Club",             "tipo": "actividad",  "x": 60.1, "y": 27.4, "descripcion": "Club de actividades para niños con juegos y entretenimiento todo el día." },
+    { "id": 11, "nombre": "Surfos Snack Bar",               "tipo": "restaurante","x": 55.9, "y": 30.1, "descripcion": "Snack bar junto a la alberca familiar, perfecto para un descanso rápido." },
+    { "id": 12, "nombre": "Family Pool",                    "tipo": "alberca",    "x": 43.1, "y": 37.7, "descripcion": "Alberca principal para toda la familia." },
+    { "id": 13, "nombre": "Pool",                           "tipo": "alberca",    "x": 56.9, "y": 41.1, "descripcion": "Área de alberca adicional para relajarse." },
+    { "id": 14, "nombre": "The Grill",                      "tipo": "restaurante","x": 57.7, "y": 58.2, "descripcion": "Restaurante especializado en carnes y platillos a la parrilla." },
+    { "id": 15, "nombre": "Ayami Restaurant",                "tipo": "restaurante","x": 67.6, "y": 58.2, "descripcion": "Restaurante de especialidades asiáticas." },
+    { "id": 16, "nombre": "Time Out Sports Bar",             "tipo": "bar",        "x": 75.4, "y": 68.0, "descripcion": "Bar deportivo para ver tus eventos favoritos con buena comida y bebida." },
+    { "id": 17, "nombre": "O International Buffet",          "tipo": "restaurante","x": 84.7, "y": 87.9, "descripcion": "Buffet internacional con variedad de platillos para todos los gustos." },
+    { "id": 18, "nombre": "Hacienda El Mortero",              "tipo": "restaurante","x": 85.8, "y": 70.0, "descripcion": "Restaurante de cocina mexicana tradicional." },
+    { "id": 19, "nombre": "Oasis Bar",                        "tipo": "bar",        "x": 85.4, "y": 57.5, "descripcion": "Bar junto a la playa, ideal para refrescarte con los pies en la arena." },
+    { "id": 20, "nombre": "Adults-Only Infinity Pool",        "tipo": "alberca",    "x": 85.1, "y": 38.4, "descripcion": "Alberca infinita exclusiva para adultos, con vista al mar." }
+  ],
+  "extras": [
+    { "tipo": "restroom", "x": 33.9, "y": 13.4, "nombre": "Sanitarios" },
+    { "tipo": "restroom", "x": 21.4, "y": 55.0, "nombre": "Sanitarios" },
+    { "tipo": "restroom", "x": 32.0, "y": 88.4, "nombre": "Sanitarios" },
+    { "tipo": "restroom", "x": 53.3, "y": 70.0, "nombre": "Sanitarios" },
+    { "tipo": "restroom", "x": 75.2, "y": 73.0, "nombre": "Sanitarios" },
+    { "tipo": "romantico", "x": 87.9, "y": 21.5, "nombre": "Romantic Spot" }
+  ]
+}
