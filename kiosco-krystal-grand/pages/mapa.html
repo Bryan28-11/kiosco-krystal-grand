@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Mapa del Hotel · Krystal Grand Nuevo Vallarta</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/mapa.css">
+</head>
+<body>
+
+  <header class="topbar topbar--sub">
+    <button class="btn-volver" onclick="window.location.href='../index.html'">← Inicio</button>
+    <h1 class="brand-name brand-name--sub">Mapa del Hotel</h1>
+    <div class="clock" id="clock">--:--</div>
+  </header>
+
+  <main class="mapa-wrap">
+    <div class="mapa-imagen-contenedor" id="mapaContenedor">
+      <img src="../img/mapa-hotel.png" alt="Mapa del hotel" class="mapa-imagen">
+      <!-- Los marcadores se generan dinámicamente con JS -->
+    </div>
+  </main>
+
+  <!-- Tarjeta de información, oculta hasta que se toque un punto -->
+  <div class="info-panel" id="infoPanel">
+    <button class="info-cerrar" id="infoCerrar">×</button>
+    <span class="info-tipo" id="infoTipo">Servicio</span>
+    <h2 class="info-nombre" id="infoNombre">Nombre</h2>
+    <p class="info-desc" id="infoDesc">Descripción</p>
+  </div>
+  <div class="info-overlay" id="infoOverlay"></div>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/mapa.js"></script>
+</body>
+</html>

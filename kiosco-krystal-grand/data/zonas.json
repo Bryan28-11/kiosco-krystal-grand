@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "numero": "1",
+    "nombre": "Recepción",
+    "descripcion": "Área de check-in y atención a huéspedes.",
+    "top": "27%",
+    "left": "14%"
+  },
+  {
+    "id": 13,
+    "numero": "13",
+    "nombre": "Piscina Principal",
+    "descripcion": "Piscina familiar principal en el centro del complejo.",
+    "top": "24%",
+    "left": "29%"
+  },
+  {
+    "id": 22,
+    "numero": "22",
+    "nombre": "Restaurante Ayami",
+    "descripcion": "Restaurante de especialidades.",
+    "top": "41%",
+    "left": "47%"
+  }
+]
